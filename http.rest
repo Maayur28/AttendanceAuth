@@ -1,0 +1,37 @@
+POST http://localhost:1111/login
+Content-Type: application/json
+
+{
+    "email":"mayuragarwal2812@gmail.com",
+    "password":"M@yur2812"
+}
+###
+POST http://localhost:1111/register
+Content-Type: application/json
+
+{
+    "email":"xohik28784@flmcat.com",
+    "password":"M@yur2812",
+    "firstname":"Mayur",
+    "lastname":"Agarwal",
+    "confirmPassword":"M@yur2812",
+    "dateOfBirth":"1996-12-28"
+}
+###
+GET http://localhost:1111/check
+Content-Type: application/json
+
+{
+    "email":"mayuragarwal@gmail.com"
+}
+###
+POST http://localhost:1111/verifyotp
+Content-Type: application/json
+
+{
+    "sessionId": "U2FsdGVkX194fW95+WpX84DaqlPYJ8T2UmSkaCCnvz3qdDr6Uy70wrjLuf/bYYnyN5BimHrlirwJFVliND1hgHMUiZH1ehrviBtNYN+Qbfx3o9+GSQFQ7IPOWeUi/fIcEsFFET1ALlCcik8Nz1yofxFLKH03PrsLdHQqNiSgSKdKRhWY+fEIshyAlw94T+R9vV1X6x79sdoJ08d7K9/i0PtAC295DLLpEZ/tqmspDj4ySwrDWvvNUHnvcVgwHk84eUC9UdqrPXhuSTQeuaoi0AsvMfovlfOF5hm888pQEhE=" ,
+    "otp": 825565
+
+}
+
+# timestamps:{createdAt:false, updatedAt:true}
