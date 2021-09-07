@@ -16,7 +16,7 @@ sendMailObj.sendOtpMail = (receiverMail, token) => {
     html: `<div style="font-family: Helvetica,Arial,sans-serif;min-width:1000px;overflow:auto;line-height:2;color:black">
         <div style="margin:20px auto;width:90%;padding:20px 0">
         <div style="border-bottom:1px solid #eee">
-        <p style="font-size:1.4em;color: #00466a;text-decoration:none;font-weight:600">Deals Tracker</p>
+        <p style="font-size:1.4em;color: #00466a;text-decoration:none;font-weight:600">Attendance Management System</p>
         </div>
         <p style="font-size:1.1em">Hi,</p>
         <p>Thank you for choosing Attendance Management System. Use the <span style="font-weight:800;margin: 0 auto;color:#00274c;width: max-content;padding: 0px 2px">${token}</span> to complete your Sign Up procedures. Valid only for 5 minutes</p>

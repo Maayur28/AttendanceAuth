@@ -92,8 +92,8 @@ userService.LoginService = async (userObj) => {
     }
   } catch (error) {
     let err = new Error();
-    err.status = error.status || 400;
-    err.message = error.message || "Invalid credentials!!!";
+    err.status = 400;
+    err.message =error.message || "Invalid credentials!!!";
     throw err;
   }
 };
